@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pjGEgxdpfB1xdWZmG8MzCY7gXdFErjUR1fmO5SA/muRstjkULFyLKPpX0NnHo3IWPdFU93oCYQtg7YqoMv31XA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ANTHONY\\OneDrive - Universidad Peruana de Ciencias\\A - Ciclo 5\\Diseño y Patrones de Software (V)\\TF\\GodEye\\GodEye\\GodEye.vcxproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ANTHONY\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.28\\microsoft.windows.sdk.net.ref.10.0.22621.28.nupkg.sha512"
+  ],
+  "logs": []
+}
