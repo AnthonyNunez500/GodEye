@@ -21,6 +21,20 @@ public:
 	Dispositivo() {}
 	~Dispositivo() {}
 
+	string getName() { return this->name; }
+	bool getEncendido() { return this->encendido; }
+	string getTipo() { return this->tipo; }
+	string getUbicacion() { return this->ubicacion; }
+
+
+	void setName(string n) { this->name = n; }
+	void serEncendido(int e) {
+		if (e == 1) { this->encendido == true; }
+		else { this->encendido == false; }
+	}
+	void setTipo(string t) { this->tipo = t; }
+	void setUbicacion(string u) { this->ubicacion = u; }
+
 	//Para los Atributos
 	void addAtributo(int m, string h, string f) {
 		Atributo a = Atributo(m, h, f);
@@ -28,6 +42,9 @@ public:
 	}
 	Atributo getAtributo(int id) {
 		return this->listAtributos.at(id);
+	}
+	vector<Atributo> getAllAtributos() {
+		return this->listAtributos;
 	}
 	void editAtributo(int m, string h, string f, int id) {
 		Atributo a = Atributo(m, h, f);
