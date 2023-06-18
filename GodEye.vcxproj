@@ -112,6 +112,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Archivo.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Atributo.h" />
     <ClInclude Include="Dispositivo.h" />

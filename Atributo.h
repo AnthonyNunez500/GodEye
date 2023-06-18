@@ -14,7 +14,8 @@ public:
 		if (m == 1) { this->movimiento = true; }
 		else { this->movimiento = false; }
 	}
-	~Atributo();
+	Atributo() {}
+	~Atributo() {}
 	bool getMovimiento() { return this->movimiento; }
 	string getHora() { return this->hora; }
 	string getFecha() { return this->fecha; }

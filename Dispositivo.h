@@ -18,6 +18,7 @@ public:
 		if (e == 1) { this->encendido == true; }
 		else { this->encendido == false; }
 	}
+	Dispositivo() {}
 	~Dispositivo() {}
 
 	//Para los Atributos
